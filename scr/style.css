@@ -1,0 +1,44 @@
+.body{
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
+h2{
+    color: black; 
+
+}
+p{
+    color: black; 
+}
+.btn-Contact{
+    background-color: #AA9C8A;
+    display:flex;
+}
+.btn-About{
+    border-color: #8F6A4F;
+    display:flex;
+}
+.paragraph1{
+    text-align:center;
+}
+.paragraph2{
+    text-align:center;
+}
+.heading{
+    text-align: center;
+}
+.Im-from{
+    color: black;
+}
+.link-back{
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+}
+
+.mail-me{
+    text-align: center;
+}
