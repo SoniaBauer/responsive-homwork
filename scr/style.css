@@ -1,44 +1,155 @@
-.body{
+.full-body{
     text-align: center;
+    margin-top: 100px;
+    padding-top: 30px;
+    background-color:rgb(255, 251, 247);
+    border-radius: 40px 20px;
+
+
 }
 
 h1{
     color: black;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400px;
+    font-style: normal;
+    margin-inline-end: 0.683em;
+    margin-inline-start:0.83em;
+    margin-block-end: 0px;
+    margin-block-start:0px;
+    font-family:"Satisfy",cursive;
 }
 h2{
+    font-family:"Crimson Text", serif;
     color: black; 
-
+    font-size: 96px;
+    font-weight: bold;
+    margin: 0px 10px;
+    text-align: center;
+    unicode-bidi: isolate;
+    margin-inline-end: 0.67em;
+    margin-inline-start:0.67em;
+    margin-block-end: 0px;
+    margin-block-start:0px;
 }
 p{
     color: black; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    opacity: 0.7;
+    padding: 0px;
 }
 .btn-Contact{
-    background-color: #AA9C8A;
-    display:flex;
+    background:rgb(206, 185, 167);
+    display:inline-block;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(206, 185, 167)  ;
+    border:rgb(206, 185, 167) ;
+    border-radius:1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 20px;
+
+    
 }
 .btn-About{
-    border-color: #8F6A4F;
-    display:flex;
+    background-color: #FFFBF7;
+    color: white;
+    display:inline-block;
+    justify-content: center;
+    margin: auto;
+    border-radius: 1em;
+    cursor: pointer;
 }
 .paragraph1{
     text-align:center;
+    display: flex;
+    font-size: 20px;
+    background-color: #fcf4e8;
+    width: 50%;
+    padding: 20px 40px;
+    border-radius: 40px 20px;
+    column-gap: 20px;
+    justify-content:space-around;
+    
 }
 .paragraph2{
     text-align:center;
+    display: flex;
+    font-size: 20px;
+    background-color:#fcf4e8;
+    width: 50%;
+    border:20px;
+    border-radius: 40px 30px;
+    padding: 10px 20px ;
+    column-gap: 20px;
+    justify-content: space-around;
+
+   
 }
 .heading{
+    font-size: 80px;
+    margin-top: 100px;
+    padding-top: 40px;
+    color: #BCA189;
     text-align: center;
+    margin-inline-end: 0.83em;
+    margin-inline-start:0.83em;
+    margin-block-end: 0px;
+    margin-block-start:0px;
+;
+    
 }
 .Im-from{
+    text-align: center;
     color: black;
+    font-size: 40px;
+    opacity: 0.7;
 }
 .link-back{
+    
     text-align: center;
+    padding-top: 20px;
+    color:#8e7762;
+   text-decoration: #BCA189;
+   font-size: 16px;
+   font-family: "Satisfy",cursive;
+   font-weight: bold;
+   
+
+    
+    
+    
 }
 .paragraph{
     text-align: center;
+    
 }
 
 .mail-me{
     text-align: center;
+    padding-top: 5px;
+    color:#8e7762;
+   text-decoration: #BCA189;
+   font-size: 20px;
+   font-family: "Satisfy",cursive;
+   font-weight: bold;
+}
+
+a{
+    color:#8e7762;   
+}
+
+.Contact{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Crimson Text", serif ;
+
+   
 }
