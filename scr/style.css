@@ -5,7 +5,6 @@
     background-color:rgb(255, 251, 247);
     border-radius: 40px 20px;
 
-
 }
 
 h1{
@@ -44,39 +43,55 @@ p{
     margin-block-start: 1em;
     opacity: 0.7;
     padding: 0px;
+    text-transform: uppercase;
 }
 .btn-Contact{
-    background:rgb(206, 185, 167);
+    background:rgb(203, 190, 179);
+    color: rgb(203, 190, 179);
+    border: none;
     display:inline-block;
     margin: auto;
-    box-shadow: 0 0 10px rgb(206, 185, 167)  ;
-    border:rgb(206, 185, 167) ;
-    border-radius:1em;
-    padding: 0.5em 1em;
+    border-radius: 2px;
+    padding: 10px 1em;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+   
 
     
 }
 .btn-About{
-    background-color: #FFFBF7;
-    color: white;
+    font-family:"Roboto",sans-serif;
+    color: rgb(203, 190, 179);
+    font-weight: bold;
+    background:rgb(203, 190, 179);
+    width: 100px;
     display:inline-block;
-    justify-content: center;
     margin: auto;
-    border-radius: 1em;
+    border-radius: 2px;
     cursor: pointer;
+    font-size: 30px;
+    padding: 10px 1em;
+    border: none;
+    text-align: center;
 }
 .paragraph1{
     text-align:center;
     display: flex;
     font-size: 20px;
     background-color: #fcf4e8;
-    width: 50%;
-    padding: 20px 40px;
-    border-radius: 40px 20px;
-    column-gap: 20px;
+    width: 30%;
+    border-radius: 10px 10px;
+    column-gap: 5px;
     justify-content:space-around;
+    position: relative;
+    left: 260px;
+    padding: 20px 0  20px 0;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.8;
+    
     
 }
 .paragraph2{
@@ -84,18 +99,24 @@ p{
     display: flex;
     font-size: 20px;
     background-color:#fcf4e8;
-    width: 50%;
+    width: 30%;
     border:20px;
-    border-radius: 40px 30px;
-    padding: 10px 20px ;
-    column-gap: 20px;
+    border-radius: 10px 10px;
+   column-gap: 5px;
     justify-content: space-around;
-
+    position: relative;
+    left: 750px;
+    top: -260px;
+    padding: 20px 0 20px 0;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.8; 
+   
+    
    
 }
 .heading{
     font-size: 80px;
-    margin-top: 100px;
     padding-top: 40px;
     color: #BCA189;
     text-align: center;
@@ -109,8 +130,9 @@ p{
 .Im-from{
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     opacity: 0.7;
+
 }
 .link-back{
     
@@ -140,6 +162,9 @@ p{
    font-size: 20px;
    font-family: "Satisfy",cursive;
    font-weight: bold;
+   margin-top:0;
+   position: relative;
+   top:-120px;
 }
 
 a{
@@ -148,8 +173,12 @@ a{
 
 .Contact{
     text-align: center;
-    font-size: 60px;
+    font-size: larger;
+    
     font-family: "Crimson Text", serif ;
+    position: relative;
+    top:-110px
+  
 
    
 }
