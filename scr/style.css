@@ -65,8 +65,12 @@ display: flex;
 
   .links{
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    justify-content:center;
+    flex-direction:row;
+    gap: 10px;
+
+    
+   
   }
 .Contact-links{
     background-color: var(--links-color);
@@ -76,6 +80,7 @@ display: flex;
     border-radius: var(--border-raduis);
     padding: 15px 15px;
     text-decoration-line:none;
+    display: inline-block;
    
 }
 
@@ -87,23 +92,27 @@ display: flex;
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.8;
-    }
-
-.paragraph2{
-    font-size: 20px;
-    background-color:rgba(242,238,232);
-    width: 30%;
-    border:20px;
-    border-radius: 10px 10px;
-    padding: 20px 0 20px 0;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.8; 
+   
    }
+
+   .paragraph2{
+    font-size: 20px;
+    width: 30%;
+    padding: 20px 0  20px 0;
+    background-color:rgba(242,238,232);
+    font-size: 18px;
+    line-height: 1.8;  gap: 10px;
+
+    }
    .two-paragraphs{
     display: flex;
-    justify-content:space-evenly;
-    flex-direction: row;
+    justify-content:center;
+    flex-direction:row;
+    gap:20px;
+    padding-top: 40px;
+    margin: 20px 40px;
+    border-width: 70px;
+
    }
 
 .heading{
@@ -159,6 +168,7 @@ a{
     justify-content: center;
     font-size: larger;
     font-family: "Crimson Text", serif ;
+padding-top: 40px;
     
   
 
